@@ -1,0 +1,22 @@
+{
+  "name": "SITE",
+  "description": "SITE PRODUTOS DE SEGURANÇA NO TRABALHO",
+  "main": "",
+  "authors": [
+    "andersonsGomes <anderson.stos.gomes@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/andsStosGomes/SiteProQualitEpis",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/scripts/src",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-material-design": "https://github.com/mdbootstrap/bootstrap-material-design.git#^4.5.11"
+  }
+}
