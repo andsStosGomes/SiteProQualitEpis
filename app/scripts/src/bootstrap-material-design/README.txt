@@ -1,6 +1,6 @@
 Material Design for Bootstrap
 
-version: MDB Free 4.5.11
+version: MDB Magazine 4.5.10
 
 Documentation:
 https://mdbootstrap.com/
@@ -23,3 +23,4 @@ https://mdbootstrap.com/forums/forum/support/
 
 Contact:
 office@mdbootstrap.com
+

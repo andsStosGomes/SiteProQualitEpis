@@ -1,6 +1,6 @@
 /*!
  * Material Design for Bootstrap 4
- * Version: MDB FREE 4.5.11
+ * Version: MDB Magazine Templates Pack 4.5.10
  *
  *
  * Copyright: Material Design for Bootstrap
@@ -49,22 +49,45 @@
 @import "free/buttons";
 @import "free/cards";
 @import "free/dropdowns";
-@import "free/input-group";
+@import "free/depreciated";
 @import "free/navbars";
 @import "free/pagination";
 @import "free/badges";
 @import "free/modals";
 @import "free/carousels";
 @import "free/forms";
+@import "free/input-group";
 @import "free/msc";
 @import "free/footers";
 @import "free/list-group";
 @import "free/tables";
-@import "free/switch";
-@import "free/depreciated";
 
-// Free addons
-// @import "addons/datatables";
+// PRO
+@import "pro/variables";
+@import "pro/buttons";
+@import "pro/social-buttons";
+@import "pro/tabs";
+@import "pro/cards-basic";
+@import "pro/dropdowns";
+@import "pro/depreciated";
+@import "pro/navbars";
+@import "pro/scrollspy";
+@import "pro/lightbox";
+@import "pro/msc";
+@import "pro/forms";
+@import "pro/accordion-basic";
+@import "pro/parallax";
+@import "pro/carousels";
+@import "pro/blog";
+@import "pro/animations";
+@import "pro/scrollbar";
+
+// Sections
+@import "pro/sections/templates";
+@import "pro/sections/magazine";
+
+// Magazine styles
+@import "magazine/general";
 
 // Your custom styles
 @import "custom-styles";
