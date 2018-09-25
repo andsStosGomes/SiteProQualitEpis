@@ -1,6 +1,6 @@
 /* Your custom styles */
 .intro-2 {
-    background: url("../img/ImgHeader.jpg")no-repeat center center;
+    background: url("/scripts/src/bootstrap-material-design/img/imgHeader.jpg")no-repeat center center;
     background-size: cover;
 }
 
@@ -51,7 +51,7 @@ h6 {
 }
 .imgHeader{
     width: 1100px;
-    height: 400px;
+    height: 300px;
 
 }
 
