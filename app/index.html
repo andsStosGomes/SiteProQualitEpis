@@ -15,7 +15,7 @@
     <link href="./scripts/src/bootstrap-material-design/css/style.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="g">
     <header class="header">
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
             <div class="container">
@@ -59,8 +59,8 @@
                                 </h6>
                                 <br>
                                 <a class="btn btn-outline-white wow fadeInLeft" data-wow-delay="0.3s">Produtos </a>
-                                <a class="btn btn-outline-white wow fadeInLeft" data-wow-delay="0.3s">Solicitar Orçamento </a>
-                                <a class="btn btn-outline-white wow fadeInLeft" data-wow-delay="0.3s">Contatos </a>
+                                <a class="btn btn-outline-white wow fadeInLeft" data-wow-delay="0.4s">Solicitar Orçamento </a>
+                                <a class="btn btn-outline-white wow fadeInLeft" data-wow-delay="0.5s">Contatos </a>
                             </div>
                         </div>
                         <br>
@@ -75,52 +75,15 @@
     </header>
     <br>
     <!--Tipos De Contatos-->
-    <main class="g">
-        <div class="container justify-content-left">
-            <div class="row py-5">
-              <div class="col col-md-12">
-                <div class="media">
-                    <img class="d-flex mr-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder1.jpg" alt="Generic placeholder image">
-                    <div class="media-body">
-                        <h5 class="mt-0 font-weight-bold">Media heading</h5>
-                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio,
-                        vestibulum in
-                        vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
-                        congue felis in faucibus.
-                    </div>
-                </div><br>
-                <div class="media">
-                    <div class="media-body">
-                        <h5 class="mt-0 mb-1 font-weight-bold">Media object</h5>
-                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio,
-                        vestibulum in
-                        vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
-                        congue felis in faucibus.
-                    </div>
-                    <img class="d-flex ml-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder1.jpg" alt="Generic placeholder image">
-                </div><br>
-                <div class="media">
-                    <img class="d-flex mr-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder1.jpg" alt="Generic placeholder image">
-                    <div class="media-body">
-                        <h5 class="mt-0 font-weight-bold">Media heading</h5>
-                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio,
-                        vestibulum in
-                        vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
-                        congue felis in faucibus.
-                    </div>
-                </div>
-              </div>
-            </div>
-         </div>
-    </main>
-    <!--Produtos-->
+    <main class="">
+         <!--Produtos-->
     <div class="container-fluid mb-5">
         <div class="row" style="margin-top:-100;">
             <div class="col col-md-12">
                 <div class="card hoverable pb-5 mx-md-3">
                     <div class="card-body">
                         <div class="container">
-                            <h6 class="text-center h1 pt-4 mb-3">Produtos</h6>
+                            <h2 class="h1-responsive font-weight-bold text-center my-5">Produtos</h2>
                             <hr class="blue title-hr">
                             <!--Card Principal-->
                             <!--Inicio Section Card com Slide principar-->
@@ -706,6 +669,118 @@
         </div>
     </div>
     <!--Fim Produtos-->
+    <!--Contatos Inicio-->
+    <div class="container">
+    <!--Section: Contact v.2-->
+    <section class="section">
+
+        <!--Section heading-->
+        <h2 class="h1-responsive font-weight-bold text-center my-5">Contatos</h2>
+        <!--Section description-->
+        <p class="text-center w-responsive mx-auto mb-5">
+            Você tem alguma pergunta?
+            Por favor, não hesite em nos contatar diretamente. Nossa equipe voltará para você em questão
+            de horas para ajudá-lo..</p>
+
+        <div class="row">
+
+            <!--Grid column-->
+            <div class="col-md-9 mb-md-0 mb-5">
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                    <!--Grid row-->
+                    <div class="row">
+
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="name" name="name" class="form-control">
+                                <label for="name" class="">Seu Nome</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="email" name="email" class="form-control">
+                                <label for="email" class="">Empressa</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+
+                    </div>
+                    <!--Grid row-->
+
+                    <!--Grid row-->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form mb-0">
+                                <input type="text" id="subject" name="subject" class="form-control">
+                                <label for="subject" class="">Email</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Grid row-->
+                    <!--Grid row-->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form mb-0">
+                                <input type="text" id="subject" name="subject" class="form-control">
+                                <label for="subject" class="">Skype</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Grid row-->
+
+                    <!--Grid row-->
+                    <div class="row">
+
+                        <!--Grid column-->
+                        <div class="col-md-12">
+
+                            <div class="md-form">
+                                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                <label for="message">Deixe Sua Mensagem</label>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Grid row-->
+
+                </form>
+
+                <div class="text-center text-md-left">
+                    <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Enviar</a>
+                </div>
+                <div class="status"></div>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-md-3 text-center">
+                <ul class="list-unstyled mb-0">
+                    <li><i class="fa fa-map-marker fa-2x"></i>
+                        <p>#</p>
+                    </li>
+
+                    <li><i class="fa fa-phone mt-4 fa-2x"></i>
+                        <p>#</p>
+                    </li>
+
+                    <li><i class="fa fa-envelope mt-4 fa-2x"></i>
+                        <p>#</p>
+                    </li>
+                </ul>
+            </div>
+            <!--Grid column-->
+
+        </div>
+
+    </section>
+    <!--Section: Contact v.2-->
+    </div>
+</main>
 
 
 
